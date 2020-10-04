@@ -100,6 +100,29 @@ a:visited{
 
 .categories ul{
   padding:0;
+  padding-left:20px;
   list-style:square;
   margin:15px;
+}
+
+.categories li{
+  padding-bottom:6px;
+  border-bottom:dotted 1px #333;
+  list-style-image: url('../ColeDuffield.github.io/Images/checkmark.jpeg');
+}
+
+.container-2{
+  padding:20px;
+}
+
+.my-form{
+  padding:20px;
+}
+
+.my-form .form-group{
+  padding-bottom:15px;
+}
+
+.my-form label{
+  display:block;
 }
