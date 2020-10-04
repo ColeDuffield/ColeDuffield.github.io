@@ -1,3 +1,65 @@
+/*
+*{
+  margin:0;
+  padding:0;
+*/
+}
 h1{
   color:blue;
+}
+
+body{
+  background-color:#f4f4f4;
+  color:#55555;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px; /* 16px is default */
+  font-weight:normal;
+  /* Same as above */
+  font:normal 16px Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.box-1{
+  background-color:#333;
+  color:white;
+
+  border-right:5px red solid;
+  border-left:5px red solid;
+  border-top:5px red solid;
+  border-bottom:5px red solid;
+
+  border-width:3px;
+  border-bottom-width:10px;
+  border-top-style:dotted;
+
+  border: 5px blue solid; /*This border overwrites the others because it comes last in the load order*/
+
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  padding-left:20px;
+
+  /* Same as above */
+  padding:20px;
+
+  margin-top:20px; 
+  margin:20px 0; /* 20px top and bottom, 0 for right and left */ 
+}
+
+.box-1 p{
+  font-family:tahoma;
+  font-weight:800;
+  font-style:normal;
+  text-decoration:underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
 }
