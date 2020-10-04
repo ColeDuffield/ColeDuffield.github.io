@@ -21,7 +21,24 @@ body{
   line-height: 1.6em;
   margin:0;
 }
+/* CSS Links */
+a{
+  text-decoration: none;
+  color: darkblue;
+}
 
+a:hover{
+  color:pink;
+}
+
+a:active{
+  color:green;
+}
+
+a:visited{
+  color:red;
+}
+/* ^CSS Links^ */
 .container{
   width:80%;
   margin:auto;
@@ -62,4 +79,27 @@ body{
   text-transform: uppercase;
   letter-spacing: 0.2em;
   word-spacing: 1em;
+}
+
+.box-2 p{
+  border:3px dotted lightblue;
+  padding:20px;
+  margin:20px 0;
+}
+
+.categories{
+  border:1px solid blue;
+  padding:10px;
+  border-radius:15px;
+  margin:20px;
+}
+
+.categories h1{
+  text-align: center;
+}
+
+.categories ul{
+  padding:0;
+  list-style:square;
+  margin:15px;
 }
